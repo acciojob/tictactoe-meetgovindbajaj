@@ -37,7 +37,7 @@ const handleClick = (e) => {
     if (result) {
       turns.innerText = `${
         !toggle ? info.player1 : info.player2
-      }, congratulations you won!`;
+      } congratulations you won!`;
       removeClick();
       return;
     } else if (
