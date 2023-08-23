@@ -3,7 +3,7 @@ let player1, player2;
 let moves_p1 = [],
   moves_p2 = [];
 let result = false;
-let toggle = Math.round(Math.random());
+let toggle = 0;
 let info = JSON.parse(localStorage.getItem("info") ?? "{}");
 let isAuth = Object.keys(info).length === 2;
 const arr = [moves_p1, moves_p2];
